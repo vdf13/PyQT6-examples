@@ -27,7 +27,7 @@ jobs:
           name: "Run test"
           command: "pytest"
       - persist_to_workspace:
-          root: ~/project
+          root: ~/projet
           paths:
             - .
 # Invoke jobs via workflows

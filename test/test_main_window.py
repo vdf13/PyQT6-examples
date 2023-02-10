@@ -1,7 +1,7 @@
 import sys
 
 from main_window import Window
-
+#import projet.main_window
 
 def test_basic(qtbot):
     windowT = Window()
